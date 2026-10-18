@@ -1,15 +1,17 @@
 {
   "name": "qa-api-automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto de testes automatizados de API com TypeScript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:api": "tsx src/get-post.test.ts"
   },
+ 
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  
   "devDependencies": {
     "@types/node": "^26.6.5",
     "tsx": "^4.23.15",
